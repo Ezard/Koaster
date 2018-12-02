@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es6",
+		"lib": [
+			"es7"
+		],
+		"noImplicitAny": false,
+		"strictNullChecks": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true
+	},
+	"include": [
+		"index.ts",
+		"SampleRoutes.ts"
+	]
+}
