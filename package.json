@@ -4,6 +4,7 @@
   "description": "Typescript fanciness for Koa",
   "main": "index.js",
   "scripts": {
+    "start": "node sample/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,14 @@
   "bugs": {
     "url": "https://github.com/Ezard/Koaster/issues"
   },
-  "homepage": "https://github.com/Ezard/Koaster#readme"
+  "homepage": "https://github.com/Ezard/Koaster#readme",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-router": "^7.4.0",
+    "reflect-metadata": "^0.1.12"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.47",
+    "@types/koa-router": "^7.0.35"
+  }
 }
